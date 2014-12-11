@@ -1,4 +1,4 @@
-class HerokuJob < Struct.new(:instance_klass, :instance_id, :attachment_name)
+class HerokuJob
   def initialize
     if Rails.env.production?
       @heroku ||= HerokuManager.new
