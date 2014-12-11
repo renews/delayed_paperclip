@@ -1,6 +1,7 @@
 module DelayedPaperclip
   module Jobs
     class ActiveJob < ActiveJob::Base
+      
       queue_as :paperclip
 
       def self.enqueue_delayed_paperclip(instance_klass, instance_id, attachment_name)
