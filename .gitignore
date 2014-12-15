@@ -7,4 +7,6 @@ Gemfile.lock
 ./gemfiles/rails*.lock
 .ruby-gemset
 .ruby-version
-.idea
+*.idea
+.idea/
+.zedstate
