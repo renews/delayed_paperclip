@@ -5,25 +5,7 @@ module DelayedPaperclip
     class DelayedJob < Struct.new(:instance_klass, :instance_id, :attachment_name)
       Logger.new(STDOUT).debug '=[=========================================================='
       Logger.new(STDOUT).debug 'delayed_job.rb'
-    # extend DelayedPaperclip::Jobs::HerokuJob
-      def initialize
-        if Rails.env.production?
-          @heroku ||= HerokuManager.new
-          Logger.new(STDOUT).debug('initializer')
-          @heroku.set_workers(1) if (@heroku.get_workers == 0)
-          Logger.new(STDOUT).debug('workers'<<@heroku.get_workers.to_s)
-          sleep 10
-        end
-      end
 
-      def after(job)
-        if Rails.env.production?
-          @heroku ||= HerokuManager.new
-          Logger.new(STDOUT).debug 'after'
-          @heroku.set_workers(0) if (job_count == 1)
-          Logger.new(STDOUT).debug 'workers'<<@heroku.get_workers.to_s
-        end
-      end
 
       def job_count
         Logger.new(STDOUT).debug 'job count'
@@ -57,11 +39,13 @@ module DelayedPaperclip
       end
 
       def perform
-        Logger.new(STDOUT).debug 'perform'
-        Logger.new(STDOUT).debug('perform='<<instance_klass.to_s<<instance_id.to_s<<attachment_name.to_s)
-        DelayedPaperclip.process_job(instance_klass, instance_id, attachment_name)
+        @heroku ||= HerokuManager.new
+        @heroku.set_workers(1) if (@heroku.get_workers == 0)
+        if DelayedPaperclip.process_job(instance_klass, instance_id, attachment_name)
+           @heroku.set_workers(0) if (@heroku.get_workers > 0)
+        end
       end
-      @Logger.new(STDOUT).debug '=[=========================================================='
+      p '=[=========================================================='
     end
   end
 end
