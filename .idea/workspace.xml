@@ -31,28 +31,8 @@
       <file leaf-file-name="delayed_job.rb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/jobs/delayed_job.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21546261" vertical-offset="51" max-vertical-offset="969">
-              <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jobs.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/jobs.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
-              <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="heroku_job.rb" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/heroku_job.rb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
+            <state vertical-scroll-proportion="0.8895349" vertical-offset="561" max-vertical-offset="1224">
+              <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
               <folding />
             </state>
           </provider>
@@ -62,7 +42,37 @@
         <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/heroku_manager.rb">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-              <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+              <caret line="11" column="60" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="60" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Gemfile" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Gemfile">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="attachment.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/attachment.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-11.206897" vertical-offset="1001" max-vertical-offset="1802">
+              <caret line="78" column="43" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="delayed_paperclip.rb" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip.rb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="2244">
+              <caret line="116" column="47" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="47" />
               <folding />
             </state>
           </provider>
@@ -77,11 +87,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/lib/delayed_paperclip/heroku_jobs.rb" />
-        <option value="$PROJECT_DIR$/lib/delayed_paperclip/heroku_manager.rb" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/lib/delayed_paperclip/version.rb" />
         <option value="$PROJECT_DIR$/lib/delayed_paperclip/jobs.rb" />
         <option value="$PROJECT_DIR$/lib/delayed_paperclip/heroku_job.rb" />
+        <option value="$PROJECT_DIR$/lib/delayed_paperclip/heroku_manager.rb" />
         <option value="$PROJECT_DIR$/lib/delayed_paperclip/jobs/delayed_job.rb" />
       </list>
     </option>
@@ -368,7 +378,13 @@
       <option name="project" value="LOCAL" />
       <updated>1418750074597</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Move methods.">
+      <created>1418750477426</created>
+      <option name="number" value="00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1418750477426</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -378,7 +394,7 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32891566" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -421,7 +437,8 @@
     <MESSAGE value="Trying autoload." />
     <MESSAGE value="Fix path" />
     <MESSAGE value="Fix." />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix." />
+    <MESSAGE value="Move methods." />
+    <option name="LAST_COMMIT_MESSAGE" value="Move methods." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -525,13 +542,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/attachment.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/delayed_paperclip.gemspec">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.16068053" vertical-offset="0" max-vertical-offset="629">
@@ -555,14 +565,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.092269324" vertical-offset="759" max-vertical-offset="2244">
-          <caret line="49" column="8" selection-start-line="49" selection-start-column="8" selection-end-line="49" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/version.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.021197008" vertical-offset="0" max-vertical-offset="802">
@@ -579,25 +581,33 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
+    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/attachment.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="802">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-11.206897" vertical-offset="1001" max-vertical-offset="1802">
+          <caret line="78" column="43" selection-start-line="78" selection-start-column="21" selection-end-line="78" selection-end-column="43" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/heroku_manager.rb">
+    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1715" max-vertical-offset="2244">
+          <caret line="116" column="47" selection-start-line="116" selection-start-column="8" selection-end-line="116" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Gemfile">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="170">
+          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/jobs.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="272">
+        <state vertical-scroll-proportion="0.22495274" vertical-offset="0" max-vertical-offset="529">
           <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
           <folding />
         </state>
@@ -605,16 +615,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/heroku_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="476">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="20" selection-end-column="7" />
+        <state vertical-scroll-proportion="0.096408315" vertical-offset="0" max-vertical-offset="529">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/heroku_manager.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="11" column="60" selection-start-line="11" selection-start-column="6" selection-end-line="11" selection-end-column="60" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/delayed_paperclip/jobs/delayed_job.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21546261" vertical-offset="51" max-vertical-offset="969">
-          <caret line="13" column="6" selection-start-line="13" selection-start-column="6" selection-end-line="13" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.8895349" vertical-offset="561" max-vertical-offset="1224">
+          <caret line="60" column="35" selection-start-line="60" selection-start-column="35" selection-end-line="60" selection-end-column="35" />
           <folding />
         </state>
       </provider>
