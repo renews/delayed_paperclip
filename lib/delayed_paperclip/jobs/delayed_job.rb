@@ -3,7 +3,24 @@ require 'delayed_job'
 module DelayedPaperclip
   module Jobs
     class DelayedJob < Struct.new(:instance_klass, :instance_id, :attachment_name)
-    extend DelayedPaperclip::Jobs::HerokuJob
+    # extend DelayedPaperclip::Jobs::HerokuJob
+      def initialize
+        if Rails.env.production?
+          @heroku ||= HerokuManager.new
+          @heroku.set_workers(1) if (@heroku.get_workers == 0)
+        end
+      end
+
+      def after(job)
+        if Rails.env.production?
+          @heroku ||= HerokuManager.new
+          @heroku.set_workers(0) if (job_count == 1)
+        end
+      end
+
+      def job_count
+        Delayed::Job.where('failed_at IS NULL').length
+      end
 
       if Gem.loaded_specs['delayed_job'].version >= Gem::Version.new("2.1.0") # this is available in newer versions of DelayedJob. Using the newee Job api thus.
 
