@@ -2,8 +2,9 @@ require 'delayed_job'
 
 module DelayedPaperclip
   module Jobs
+
     class DelayedJob < Struct.new(:instance_klass, :instance_id, :attachment_name)
-    include :DelayedPaperclip::HerokuJob
+    include DelayedPaperclip::HerokuJob
 
       if Gem.loaded_specs['delayed_job'].version >= Gem::Version.new("2.1.0") # this is available in newer versions of DelayedJob. Using the newee Job api thus.
 
